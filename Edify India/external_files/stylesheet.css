@@ -1,0 +1,294 @@
+		.header
+		{
+			width: 100%;
+			height: 120px;
+			background-color: #E3E5E5;	
+			border-radius: 10px;
+			padding-top:5px;
+			padding-bottom:5px;
+			margin-bottom:0px;
+		}
+		.header li
+		{
+			float:right;
+			margin-right:30px
+		}
+		
+
+
+		
+
+.dropdown .dropbtn {
+    font-size: 20px;    
+    border: none;
+    outline: none;
+    background-color: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: 12px;
+    min-width: 120px;
+
+}
+
+.dropdown-content a {
+    float: none;
+    color: rgba(0,0,0,0.75);
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+     border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+		.main
+		{
+			width: 100%;
+			height: 400px;
+			background-color: #EDF6ED;
+		}
+		.main-left
+		{
+			width: 40%;
+			height: 100%;
+			float: left;	
+			border-radius: 10px;
+			
+		}
+		.main-right
+		{
+			width: 60%;
+			height: 100%;
+			position:relative; 
+			float: left;	
+			border-radius: 10px;
+		}
+		.main-right img 
+		{
+			height:90%;
+			width: 90%;
+ 			position:absolute;
+  			margin-top: 5%;
+  			margin-left: 5%;
+  			border-radius: 10px;
+  			opacity:0; 
+   			animation-name: fade; 
+   			animation-duration: 18s;
+    		animation-iteration-count: infinite; 
+		}
+
+		@keyframes fade 
+		{
+ 			0%   { opacity: 0; }
+  			11.11%   { opacity: 1; }
+  			33.33%  { opacity: 1; }
+	  		44.44%  { opacity: 0; }
+			100% { opacity: 0; }
+		}
+		.main-right img:nth-child(1) { animation-delay: 0s;  }
+		.main-right img:nth-child(2) { animation-delay: 3s;  }
+		.main-right img:nth-child(3) { animation-delay: 6s;  }
+		.main-right img:nth-child(4) { animation-delay: 9s;  }
+		.main-right img:nth-child(5) { animation-delay: 12s;  }
+		.main-right img:nth-child(6) { animation-delay: 15s;  }
+		.main-right img:nth-child(7) { animation-delay: 18s;  }
+		
+		.main-left table
+		{
+					
+			width: 80%;
+			margin-left: 10%;
+			margin-top: 8px;
+			border-radius: 20px;
+		}
+		#aboutus
+		{
+			width: 100%;
+			height: 944px;
+			background-color: #EDF6ED;
+			border-radius: 10px;
+			font-size: 22px;
+		}
+		.aboutus-whyei
+		{
+			width: 100%;
+			height: 380px;
+		}
+		.aboutus-left-whyei
+		{
+			width: 40%;
+			height: 100%;
+			float: left;
+			border-radius: 10px;
+		}
+		.aboutus-right-whyei
+		{
+			width: 60%;
+			height: 100%;
+			position:relative; 
+			float: left;	
+			border-radius: 10px;
+			
+		}
+		.aboutus-kf
+		{
+			width: 100%;
+			height: 350px;
+			
+		}
+		.aboutus-left-kf
+		{
+			width: 40%;
+			height: 100%;
+			float: left;
+		}
+		.aboutus-right-kf
+		{
+			width: 60%;
+			height: 100%;
+			float: left;
+		}
+		.aboutus-motto
+		{
+			width: 100%;
+			height: 180px;
+			float: left;
+		}
+		#ourvision
+		{
+			width: 100%;
+			height: 1234px;
+			background-color: #EDF6ED;
+			border-radius: 10px;
+			font-size: 22px;	
+		}
+		.vision-wut
+		{
+			width: 100%;
+			height: 360px;
+		}
+		.vision-left-wut
+		{
+			width: 50%;
+			height: 100%;
+			float: left;
+			
+		}
+		.vision-right-wut
+		{
+			width: 50%;
+			height: 100%;
+			float: left;
+		}
+		.vision-wisedu1
+		{
+			width: 100%;
+			height: 330px;
+			
+		}
+		.vision-left-wisedu1
+		{
+			width: 50%;
+			height: 100%;
+			float: left;
+		}
+		.vision-right-wisedu1
+		{
+			width: 50%;
+			height: 100%;
+			float: left;
+		}
+		.vision-wisedu2
+		{
+			width: 100%;
+			height: 230px;
+			float: left;
+			
+		}
+		.vision-gallary
+		{
+			width: 100%;
+			height: 280px;
+			float: left;
+			
+		}
+		.vision-gallary-pic1
+		{
+			width: 30%;
+			height:80%;
+			border-radius: 10px;
+			margin-left: 3%;
+			margin-right: 1%;
+			margin-top: 1.5%;
+			margin-bottom:5%;
+			float: left;
+		}
+		.vision-gallary-pic2
+		{
+			width: 30%;
+			height:80%;
+			border-radius: 10px;
+			margin-left: 1%;
+			margin-right: 1%;
+			margin-top: 1.5%;
+			margin-bottom:5%;
+			float: left;
+		}
+		.vision-gallary-pic3
+		{
+			width: 30%;
+			height:80%;
+			border-radius: 10px;
+			margin-left: 1%;
+			margin-right: 3%;
+			margin-top: 1.5%;
+			margin-bottom:5%;
+			float: left;
+		}
+		.footer
+		{
+			width: 100%;
+			height: 80px;
+			padding-top:15px;
+			padding-bottom: 15px;
+			font-size: 20px;
+			background-color: #E3E5E5;
+			border-radius:10px;
+		}
+		li 
+		{
+			display: inline-block;
+			width: 120px;
+			height: 35px;
+			text-align: center;
+			margin-bottom: 20px;
+			margin-top: 60px;
+			border-radius: 5px;
+			
+
+		}
+		li:hover
+		{
+			background:  #29A729;
+		}
+		li a
+		{
+			font-size: 20px;
+			text-decoration: none;
+		}
